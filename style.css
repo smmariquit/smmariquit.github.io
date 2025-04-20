@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    background-color: #85c504;
+    font-family: Arial;
+}
+
+.footer-container{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    z-index: 100; /* Sets the priority as to what order in the "stack" to put the nav element. This places it in front. */
+    align-items: center
+}
+
+.footer-nav{
+    list-style: none; /* Remove the bullets */
+    display: flex; /* Turns the element into a flex container */
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.footer-nav a {
+    color: #85c504;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    background-color: #85c504;
+    color:black
+}
+
+.footer-container li { 
+    color: #85c504;
+    margin: 0 15px; /* 0 margin to the top, 15px to the sides */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.column {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left {
+    flex: 1
+}
+
+.right {
+    flex: 3;
+    align-items: center;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+}
+
+#h1-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h1 {
+    font-size: 100px;
+    margin: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+#h1 img {
+    margin: 0 10px;
+}
+
+#h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 10px
+}
+
+nav { /* Lay out the nav bar */
+    top: 0; /*  Put the element on top of the viewport (screen) */
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    z-index: 100 /* Sets the priority as to what order in the "stack" to put the nav element. This places it in front. */
+}
+
+nav ul { /* Lay out the list of navigation sections */
+    list-style: none; /* Remove the bullets */
+    display: flex; /* Turns the element into a flex container */
+    justify-content: center;
+    padding: 0;
+    margin: 0
+}
+
+nav li { 
+    margin: 0 15px; /* 0 margin to the top, 15px to the sides */
+}
+
+nav a {
+    display: block;
+    color: #85c504;
+    text-align: center;
+    padding: 14px, 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #85c504;
+    color:black
+}
+
+#experience {
+    margin: 30px;
+}
+
+.experience-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.experience-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.experience-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.experience-header h3 {
+    margin-bottom: 5px;
+    color: #0077b5; /* LinkedIn blue */
+}
+
+.experience-header p {
+    margin: 3px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.experience-description p {
+    margin-top: 10px;
+    color: #333;
+}
